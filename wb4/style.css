@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+}
+.page .box{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 95vh;
+    
+}
+.page .box .per{
+    position: absolute;
+    top: 77.3%;
+    width: 24.2%;
+    left: 26.2%;
+}
+.page .box .ct{
+    width:50.4%;
+}
+.ln{
+    position: absolute;
+    top: 25%;
+    left: 14.8%;
+    font-size: 24px;
+    color: rgb(238, 138, 8);
+    font-family: cursive;
+}
+.page .box .arrow{
+    position: absolute;
+    width: 34%;
+    left: 5%;
+    top: 25%;
+}
+.page .box .ln2{
+    font-style: italic;
+    font-family: cursive;
+    position: absolute;
+    top: 85%;
+    left: 1.5%;
+    color: rgb(228, 132, 7);
+    border-bottom: 2px solid black;
+}
+.page .box .bdr{
+    width: 19%;
+    height: 4vh;
+    position: absolute;
+    top: 94%;
+    left: 3%;
+    border-top: 2px solid black;
+}
+.page .box .bx{
+    position: absolute;
+    top: 2.5%;
+    left: 51.3%;
+    
+    width: 48%;
+    height: 90vh;
+}
+.page .box .bx #name,#company,#ph,#ed,#desc{
+    width: 53%;
+    position: absolute;
+    top:11.5%;
+    left: 35%;
+    border: none;
+    border-bottom: 1.5px solid grey;
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 3px;
+    outline: none;
+}
+#company{
+    top: 23%;
+}
+#ph{
+    top: 34%;
+}
+#ed{
+    top: 45%;
+}
+#desc{
+    top: 56%;
+}
+.nm,.cp,.phn,.eml,.dsc,.srv{
+    position: absolute;
+    left: 35%;
+    color: firebrick;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.nm{
+    top: 6%;
+}
+.cp{
+    top: 18%;
+}
+.phn{
+    top: 29%;
+}
+.eml{
+    top: 40%;
+}
+.dsc{
+    top: 51%;
+}
+.srv{
+    top: 62.5%;
+}
+::placeholder{
+    font-size: 13px;
+}
+.page .box .bx #c1,#c2,#c3{
+    position: relative;
+    top: 65%;
+    left: 35%;
+}
+#c4,#c5,#c6{
+    position: relative;
+    left: 65%;
+    top: 49%;
+}
+.pm,.de,.e{
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    top: 67.6%;
+    left: 38%;
+}
+.cc,.sc,.o{
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    top:51.7%;
+    left: 68%;
+}
+.btn{
+    position: absolute;
+    top: 89%;
+    left:68% ;
+    width: 20%;
+    height: 5vh;
+    color: rgb(61, 28, 4);
+    border-radius:10px ;
+    border: 2px solid rgb(61, 28, 4) ;
+}
+.btn:hover{
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgb(0,0,0,0.2);
+    background: linear-gradient(to left,firebrick,orange);
+}
